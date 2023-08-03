@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.owl-carousel .owl-item .item {
+    position: relative;
+    overflow: hidden;
+}
+
+.owl-carousel .owl-item .item .title {
+    font-family: sans-serif;
+    color: aliceblue;
+    font-size: 40px;
+    font-weight: 700;
+
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+
+    transform: translateY(100px);
+    opacity: 0;
+    transition: all .2s;
+}
+
+.owl-carousel .owl-item .item .title {
+    transform: translateY(0);
+    opacity: 1;
+}
